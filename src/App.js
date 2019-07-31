@@ -1,4 +1,5 @@
 import React from 'react';
+import Webchat from './Webchat';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Webchat />
     </div>
   );
 }
